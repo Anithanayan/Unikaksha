@@ -1,0 +1,86 @@
+#Pattern I
+#n=int(input())
+#for i in range(0,n):
+##    for j in range(0,n):
+#        print('*',end='')
+ #   print()
+n=int(input())
+for i in range(1,n+1):
+    print('*' *n)
+
+#Pattern II
+n=int(input())
+for i in range(1,n+1):
+    for j in range(1,n+1):
+        print(i,end='')
+    print()
+    
+#Pattern III
+n=int(input())
+for i in range(1,n+1):
+    for j in range(0,i):
+        if i>=j:
+            print('*',end='')
+        else:
+            print('')
+    print()
+    
+#Pattern VI
+n=int(input())
+for i in range(1,n+1):
+    for j in range(1,n+1):
+        if i+j<=n+1:
+            print('*',end='')
+    print()
+    
+#Pattern V
+n=int(input())
+j=n-1
+for i in range(1,n+1):
+    print(' '*j+'*'*i)
+    j=j-1
+    
+#Pattern VI
+n=int(input())
+j=0
+for i in range(n,0,-1):
+    print(' '*j+'*'*i)
+    j=j+1
+
+#Pattern VII
+n=int(input())
+print('*'*n)
+for i in range(n-2):
+    print('*'+' '*(n-2)+'*')
+print('*'*n)
+
+#Pattern VIII
+n=int(input())
+for  i in range (1,n+1):
+    for sp in range(1,n-i+1):
+        print(' ',end='')
+    for j in range(1,2*i):
+        print("*",end='')
+    print()
+    
+#Pattern IX
+n=int(input())
+j=0
+for i in range(2*n-1,0,-2):
+    print(' '*j+'*'*i)
+    j=j+1
+    
+#Pattern X
+n=int(input())
+for i in range(1,n):
+    for sp in range(1,n-i+1):
+        print(' ',end='')
+    for j in range(1,2*i):
+        print("*",end='')
+    print()
+for i in range(1,n+1):
+    for sp in range(1,i):
+        print(' ',end='')
+    for j in range(1,2*(n-i)+2):
+        print("*",end='')
+    print()

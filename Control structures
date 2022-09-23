@@ -21,13 +21,14 @@ else:
     print('no')
     
 #Sum of Digits
-n=int(input())
-sum=0
-while n>0:
-    b=n%10
-    sum+=b
-    n=n//10
-print(sum)
+a=input()
+b=len(a)
+a=int(a)
+s=0
+for i in range(b):
+    s=s+a%10
+    a=a//10
+print(s)
 
 #Friendly Pair
 x=int(input())

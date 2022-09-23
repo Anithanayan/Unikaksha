@@ -1,0 +1,78 @@
+#Series I
+n=int(input())
+for i in range(1,n+1):
+    print(i**2)
+    
+#Series II
+n=int(input())
+x=6
+print(x)
+for i in range(1,n):
+    x=x+(i*5)
+    print(x)
+    
+#Series III
+n=int(input())
+for i in range(1,n+1):
+    print(3**i)#python
+    
+#Series IV
+n=int(input())
+for i in range(0,n):
+    print((3**i)/2)
+    
+#Series V
+n=int(input())
+x=11
+for i in range(1,n+1):
+    a=x**2
+    print(a)
+    x=x+4
+
+#Series VI
+n=int(input())
+for i in range(1,n+1):
+    if(i%2!=0):
+        print((i**2)-1)
+    else:
+        print((i**2)-2)
+        
+#Series VII
+n=int(input())
+x=1
+print(x)
+y=2.0
+print(y)
+for i in range(1,n-1):
+    if(i%2!=0):
+        x=x*3.0
+        print(x)
+    else:
+        if(i%2==0):
+            y=y*3.0
+            print(y)
+            
+#Series VIII
+n=int(input())
+x=4
+print(x)
+for i in range(1,n):
+    x=x+(i**2)
+    print(x)
+    
+#Series IX
+n=int(input())
+x=2
+for i in range(1,n+1):
+    print(x)
+    x=(x**2)-1
+    
+#Series X
+n=int(input())
+x=95.0
+y=20.5
+for i in range(1,n+1):
+    print(x)
+    x=x+y
+    y=y+2
+        

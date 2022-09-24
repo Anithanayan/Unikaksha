@@ -48,7 +48,19 @@ d = s[0:2] +s [c - 2: c ]
 print(d)
 
 #Remove the nth index
+s=str(input())
+n=int(input())
+print(s[0:n]+s[n+1:])
 
 #Replace all occurrences
+s=str(input())
+m=input()
+n=input()
+x=s.replace(m,n)
+print('Modified string:')
+print(x)
 
 #Remove the nth index character
+s=str(input())
+n=int(input())
+print(s[0:n]+s[n+1:])
